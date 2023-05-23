@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* taking the form in the center having the background color font-family  */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: white;
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* this is form border of the form box */
+div.container{
+    width: 450px;
+    height: 500px;
+    padding: 48px 40px 36px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+}
+
+/* logo width and placed in */
+.logo{
+    width: 100%;
+    text-align: center;
+}
+
+/* img height of logo */
+.logo img{
+    height: 80px;
+    user-select: none;
+}
+
+/* sign-in font-size and where it is placed in form */
+.form-box h1{
+    padding-top: 12px;
+    color: #202124;
+    font-size: 24px;
+    font-family: 'productsans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* caption of span */
+.form-box span{
+    display: block;
+    padding-top: 10px;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* used for distance between the text area */
+form{
+    padding-top: 24px;
+
+}
+
+/* width of input-box */
+form .input-box{
+    width: 100%;
+    margin: 18px 0 8px;
+    position: relative;
+}
+
+/* label of input-box */
+form .input-box .input-field{
+    width: 100%;
+    height: 55px;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    transition: all 150ms;
+}
+
+/* color of input-box */
+form .input-box .input-field:focus{
+    border: 2px solid #1a73e8;
+}
+
+/* text placed inside the placeholder */
+form .input-box .placeholder{
+    padding: 0 8px;
+    color: #80868b;
+    background-color: white;
+    position: absolute;
+    top: 18px;
+    left: 8px;
+    transform-origin: bottom left;
+    pointer-events: none;
+    transition: all 150ms;
+}
+
+/* text placed inside the placeholder have given a color */
+form .input-box .input-field + .placeholder{
+    color: #1a73e8;
+}
+
+/* while the time of entering the details the text formate will change his place automatically */
+form .input-box .input-field:focus + .placeholder,
+form .input-box .input-field:valid + .placeholder{
+    transform: scale(0.75) translateY(-39px);
+}
+
+/* size and weight of forgot email */
+.forgot{
+    padding: 5px 0;
+    color: #1a73e8;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* space between the text */
+.buttons{
+    width: 100%;
+    margin: 50px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* design of create-account  */
+.create-account{
+    padding: 5px 0;
+    color: #1a73e8;
+    font-size: 14px;
+    font-family: 'productsans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* design of sign-in(Next) button */
+.sign-in{
+    padding: 10px 28px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 14px;
+    font-family: 'productsans', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: all 150ms;
+}
+
+/* when we will go on sign-in(Next) button will see a effect */
+.sign-in:hover{
+    box-shadow: 0 3px 5px #1a73e83b;
+}
+
+/* active effect */
+.sign-in:active{
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
